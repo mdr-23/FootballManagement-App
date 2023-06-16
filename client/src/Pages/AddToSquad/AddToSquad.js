@@ -148,7 +148,7 @@ export default function AddToSquad() {
     // When a post request is sent to the create url, we'll add a new record to the database.
     const newPerson = { ...form };
 
-    await fetch("https://lemurpromanagement-mdg.app/record/add", {
+    await fetch("https://fmapi-dho5.onrender.com/player/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
