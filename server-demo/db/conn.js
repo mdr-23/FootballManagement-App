@@ -17,7 +17,7 @@ module.exports = {
       console.error(e);
     }
 
-    _db = client.db("employees");
+    _db = client.db("players");
 
     try {
       var count = await _db.collection("records").countDocuments();
